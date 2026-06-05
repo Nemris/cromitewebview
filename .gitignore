@@ -1,0 +1,6 @@
+# Build and output dirs.
+build/
+out/
+
+# Vim buffers.
+*.sw?
