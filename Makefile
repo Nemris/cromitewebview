@@ -1,12 +1,12 @@
 # Specific Cromite Webview release to fetch.
-APKVER		:= 	v148.0.7778.168-cb3baf14f52eb4365d017f640f85310735c19b79
+APKVER		:= 	v153.0.8010.37-11507ac1061b5ea227806f5e84db5a57df6ccf6a
 
 # Magisk module.prop configuration.
 # See https://github.com/topjohnwu/Magisk/blob/master/docs/guides.md.
 ID		:=	cromitewebview
 NAME		:=	Cromite Webview
 VER		:=	$(firstword $(subst -, , $(APKVER)))
-VERCODE		:=	1
+VERCODE		:=	2
 AUTHOR		:=	Nemris
 DESC		:=	Install the Cromite Webview systemlessly.
 
